@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- This Response is done by Vikash Thakur -->
+<request>
+<address>
+    <name>Vikash</name>
+    <street>KamalSagarNahur</street>
+    <telephone number= "8249713360"/>
+</address>
+<Place>
+    <State>Mumbai</State>
+    <Country> India</Country>
+</Place>
+<CompanyName>
+    <Location>Ghatkopar</Location>
+    <OfficeName> Aqm Technologies.com</OfficeName>
+ </CompanyName>
+ <Roles>
+    <Role>AutomationEngineer</Role>
+    <course>Testing</course>
+    <Insititutes>qspider</Insititutes>    
+</Roles>
+<Friends>
+    <Friends1>Dhwani</Friends1>
+    <Friends2>Gunjan</Friends2>
+    <Friends3>ranjeet</Friends3> 
+    <Friends4>Saurabh</Friends4>    
+</Friends>
+<College>
+    <College1>Gandhi</College1>
+    <College2>Engineering</College2>
+    <College3>college</College3> 
+    <College4>Bhubneaswar</College4>    
+</College>
+</request>

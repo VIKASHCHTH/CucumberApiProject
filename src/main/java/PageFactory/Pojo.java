@@ -149,11 +149,19 @@ public class Pojo {
 	public String getRunningScriptName() {
 		return this.runningScript;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param downloadPath
+	 */
 	public void setDownloadPath(String downloadPath) {
 		this.downloadPath = downloadPath;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param dataValidator
+	 */
 	public XSSFWorkbook getDataValidator() {
 		return dataValidator;
 	}
@@ -161,7 +169,11 @@ public class Pojo {
 	public void setDataValidator(XSSFWorkbook dataValidator) {
 		this.dataValidator = dataValidator;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param TestFailStep
+	 */
 	void setTestFailedStep(String step) {
 		this.step = step;
 	}
@@ -169,7 +181,11 @@ public class Pojo {
 	public String getTestFailedStep() {
 		return step;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param StopWatch
+	 */
 	public Stopwatch getStopwatch() {
 		return stopwatch;
 	}
@@ -177,7 +193,11 @@ public class Pojo {
 	public void setStopwatch(Stopwatch stopwatch) {
 		this.stopwatch = stopwatch;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param TimeStamp
+	 */
 	public String getExecutionTimeStamp() {
 		return executionTimeStamp;
 	}
@@ -185,11 +205,19 @@ public class Pojo {
 	public void setExecutionTimeStamp(String executionTimeStamp) {
 		this.executionTimeStamp = executionTimeStamp;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param portalURL
+	 */
 	public void setPortalURL(String portalURL) {
 		this.portalURL = portalURL;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param TestCaseId
+	 */
 	public void setRunningTestName(String methodName) {
 		TCID = methodName;
 	}
@@ -197,7 +225,11 @@ public class Pojo {
 	public String getRunninTestName() {
 		return TCID;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param Workbook
+	 */
 	public XSSFWorkbook getWorkbook() {
 		return workbook;
 	}
@@ -205,7 +237,11 @@ public class Pojo {
 	public void setWorkbook(XSSFWorkbook workbook) {
 		this.workbook = workbook;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param HashTable
+	 */
 	public Hashtable<String, String> getObjHashTable() {
 		return objHashTable;
 	}
@@ -213,15 +249,27 @@ public class Pojo {
 	public void setObjHashTable(Hashtable<String, String> objHashTable) {
 		this.objHashTable = objHashTable;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param downloadPath
+	 */
 	public String getDownloadPath() {
 		return downloadPath;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param DataBase Connection
+	 */
 	public Connection getDataBaseConnection() {
 		return conn;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param DataBase Connection
+	 */
 	public void setDataBaseConnection(Connection conn) {
 		this.conn = conn;
 	}
@@ -233,7 +281,11 @@ public class Pojo {
 	public void setDataBaseStatement(Statement stmt) {
 		this.stmt = stmt;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param exceptionFlag
+	 */
 	public String getCustomException() {
 		return exceptionFlag;
 	}
@@ -241,7 +293,11 @@ public class Pojo {
 	public void setCustomException(String exceptionFlag) {
 		this.exceptionFlag = exceptionFlag;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param testDataRow
+	 */
 	public int getTestDataRow() {
 		return testDataRow;
 	}
@@ -249,19 +305,35 @@ public class Pojo {
 	public void setTestDataRow(int testDataRow) {
 		this.testDataRow = testDataRow;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param portalURL
+	 */
 	public String getPortalURL() {
 		return portalURL;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param Utilities
+	 */
 	public void setObjUtilities(Utilities objUtilities) {
 		this.objUtilities = objUtilities;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param WrapperFunctions
+	 */
 	public void setObjWrapperFunctions(WrapperFunctions objWrapperFunctions) {
 		this.objWrapperFunctions = objWrapperFunctions;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param testCaseID
+	 */
 	public String getTestCaseID() {
 		return this.testCaseID;
 	}
@@ -269,7 +341,11 @@ public class Pojo {
 	public void setTestCaseID(String testCaseID) {
 		this.testCaseID = testCaseID;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param executionFlag
+	 */
 	public boolean getExecutionFlag() {
 		return this.executionFlag;
 	}
@@ -277,7 +353,11 @@ public class Pojo {
 	public void setExecutionFlag(boolean executionFlag) {
 		this.executionFlag = executionFlag;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param runID
+	 */
 	public int getRunID() {
 		return this.runID;
 	}
@@ -285,7 +365,11 @@ public class Pojo {
 	public void setRunID(int runID) {
 		this.runID = runID;
 	}
-
+	/**
+	 * @author Vikash Chandra thakur
+	 * @date 12-03-2020
+	 * @param scriptTimeoutWait
+	 */
 	public void setScriptTimeoutWait(int scriptTimeoutWait) {
 		this.scriptTimeoutWait = scriptTimeoutWait;
 	}
